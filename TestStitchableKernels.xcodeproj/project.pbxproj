@@ -13,6 +13,8 @@
 		AE33A0142AF779A800EFBBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE33A0122AF779A800EFBBDC /* Main.storyboard */; };
 		AE33A0162AF779AB00EFBBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE33A0152AF779AB00EFBBDC /* Assets.xcassets */; };
 		AE33A0192AF779AB00EFBBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE33A0172AF779AB00EFBBDC /* LaunchScreen.storyboard */; };
+		AE33A0212AF77AC200EFBBDC /* TestKernels.metal in Sources */ = {isa = PBXBuildFile; fileRef = AE33A0202AF77AC200EFBBDC /* TestKernels.metal */; };
+		AE33A0232AF77ACD00EFBBDC /* TestFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE33A0222AF77ACD00EFBBDC /* TestFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AE33A0152AF779AB00EFBBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE33A0182AF779AB00EFBBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE33A01A2AF779AB00EFBBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE33A0202AF77AC200EFBBDC /* TestKernels.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = TestKernels.metal; sourceTree = "<group>"; };
+		AE33A0222AF77ACD00EFBBDC /* TestFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				AE33A00C2AF779A800EFBBDC /* AppDelegate.swift */,
 				AE33A00E2AF779A800EFBBDC /* SceneDelegate.swift */,
 				AE33A0102AF779A800EFBBDC /* ViewController.swift */,
+				AE33A0222AF77ACD00EFBBDC /* TestFilter.swift */,
+				AE33A0202AF77AC200EFBBDC /* TestKernels.metal */,
 				AE33A0122AF779A800EFBBDC /* Main.storyboard */,
 				AE33A0152AF779AB00EFBBDC /* Assets.xcassets */,
 				AE33A0172AF779AB00EFBBDC /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				AE33A0112AF779A800EFBBDC /* ViewController.swift in Sources */,
 				AE33A00D2AF779A800EFBBDC /* AppDelegate.swift in Sources */,
+				AE33A0232AF77ACD00EFBBDC /* TestFilter.swift in Sources */,
+				AE33A0212AF77AC200EFBBDC /* TestKernels.metal in Sources */,
 				AE33A00F2AF779A800EFBBDC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
