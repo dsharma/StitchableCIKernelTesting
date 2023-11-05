@@ -13,7 +13,7 @@ using namespace metal;
 
 [[ stitchable ]] half4 testFilter (coreimage::sampler inputImage, coreimage::destination dest)
 {
-    float2 srcCoord = inputImage.coord();
+    float2 srcCoord = inputImage.coord(); //<-- This line gives linker errors
     half4 color =  half4(inputImage.sample(srcCoord));
  
     return color;
